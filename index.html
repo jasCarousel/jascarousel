@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="">
+<head>
+    <meta charset="UTF-8">
+    <title>Untitled Document</title>
+	<meta name="Author" content=""/>
+	<!--<link rel="stylesheet" type="text/css" href="style.css">-->
+	<link rel="stylesheet" type="text/css" href="newCarousel.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+	<script src="jquery.touchSwipe.min.js"></script>
+	<script src="jquery.newCarousel.1.1.js"></script>
+	<style>
+        html,body{height: 100%;width: 100%;}
+        .container { width: 250px; height:140px; position: relative; margin: 100px auto 0; border:thin solid #000}
+        .box figure {width: 200px; border: 2px solid black;color: white;display: block;font-size: 80px;font-weight: bold;height: 116px;left: 10px;line-height: 116px;text-align: center;top: 10px;background: rgba(0, 0, 255, 0.8);margin:0}
+        
+        .carousel figure .one { background-color: rgba(255, 0, 0, 0.8); }
+        .carousel figure .two { background-color: rgba(200, 20, 50, 0.8); }
+        .carousel figure .three { background-color: rgba(169, 10, 200, 0.8); }
+        .carousel figure .four { background-color: rgba(0, 255, 0, 0.8); } 
+        .carousel figure .five { background-color: rgba(0, 169, 255, 0.8); }
+        .carousel figure .six { background-color: rgba(169, 55, 155, 0.8); }
+        
+        span{cursor: pointer;margin: 0 20px }
+    </style>
+</head>
+<body>
+<div class="container">
+    <div class="box">
+        <figure><div class="one">1</div></figure>
+        <figure><div class="two">2</div></figure>
+        <figure><div class="three">3</div></figure>
+        <figure><div class="four">4</div></figure>
+        <figure><div class="five">5</div></figure>
+        <figure><div class="six">6</div></figure>
+        <figure><div class="six">7</div></figure>
+        <figure><div class="six">8</div></figure>
+        <figure><div class="six">9</div></figure>
+        <figure><div class="six">10</div></figure>
+        <figure><div class="six">11</div></figure>
+        <figure><div class="six">12</div></figure>
+        <figure><div class="six">13</div></figure>
+        <figure><div class="six">14</div></figure>
+    </div>
+</div>
+
+<script>
+$(document).ready(function(){
+    $(".container").carousel({
+        auto:true,
+        timer: 1500,
+        infiniteLoop:false,
+        axes:"y",
+        margin:50   
+    });
+})
+</script>
+</body>
+</html>
