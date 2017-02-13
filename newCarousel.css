@@ -1,3 +1,6 @@
 .carousel{position: absolute !important;  transform-style: preserve-3d;  transition: all 0.5s; -webkit-transition: all 0.5s; -ms-transition: all 0.5s; -moz-transition: all 0.5s; height: 100%; width:100%;}
 body.transition-remove .carousel {transition: none !important; -webkit-transition: none !important; -moz-transition: none !important; -ms-transition: none !important;}
 .carousel figure{position: absolute !important;}
+
+
+ 
