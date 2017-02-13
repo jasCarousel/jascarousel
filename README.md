@@ -145,7 +145,7 @@ Example:
 		</tr>
 		<tr>
 			<td>overScrollFix</td>
-            <td>false</td>
+            		<td>false</td>
 			<td>(Experimental) If true, will freeze the parallax effect when "over scrolling" in browsers like Safari to prevent unexpected gaps caused by negative scroll positions.</td>
 		</tr>
 	</tbody>
