@@ -5,15 +5,15 @@ _Awesome 3D carousel plugin_
 
 #### Demo
 
-[https://websoldire.github.io/3dcalrousel/](https://websoldire.github.io/3dcalrousel/)
+[https://websoldire.github.io/3Dcalrousel/](https://websoldire.github.io/3Dcalrousel/)
 
 #### CDN
 
 To start working with Slick right away, there's a couple of CDN choices availabile
 to serve the files as close, and fast as possible to your users:
 
-- https://websoldire.github.io/3dcalrousel/jquery.newCarousel.1.1.js
-- https://websoldire.github.io/3dcalrousel/jquery.newCarousel.css
+- https://websoldire.github.io/3Dcalrousel/jquery.newCarousel.1.1.js
+- https://websoldire.github.io/3Dcalrousel/jquery.newCarousel.css
 
 #####Example using jsDelivr
 
