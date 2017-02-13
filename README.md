@@ -96,7 +96,7 @@ Example:
 		<tr>
 			<td>naturalWidth</td>
 			<td>auto</td>
-			<td rowspan="2">You can provide the natural width and natural height of an image to speed up loading and reduce error when determining the correct aspect ratio of the image.</td>
+			<td>You can provide the natural width and natural height of an image to speed up loading and reduce error when determining the correct aspect ratio of the image.</td>
 		</tr>
 		<tr>
 			<td>naturalHeight</td>
@@ -106,7 +106,7 @@ Example:
 		<tr>
 			<td>position</td>
 			<td>center center</td>
-			<td rowspan="3">This is analogous to the background-position css property. Specify coordinates as top, bottom, right, left, center, or pixel values (e.g. -10px 0px). The parallax image will be positioned as close to these values as possible while still covering the target element.</td>
+			<td>This is analogous to the background-position css property. Specify coordinates as top, bottom, right, left, center, or pixel values (e.g. -10px 0px). The parallax image will be positioned as close to these values as possible while still covering the target element.</td>
 		</tr>
 		<tr>
 			<td>positionX</td>
