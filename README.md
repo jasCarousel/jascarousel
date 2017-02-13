@@ -5,23 +5,23 @@ _Awesome 3D carousel plugin_
 
 #### Demo
 
-[http://kenwheeler.github.io/slick](http://kenwheeler.github.io/slick/)
+[https://webbyninuja.github.io/3dcalrousel/](https://webbyninuja.github.io/3dcalrousel/)
 
 #### CDN
 
 To start working with Slick right away, there's a couple of CDN choices availabile
 to serve the files as close, and fast as possible to your users:
 
-- https://cdnjs.com/libraries/slick-carousel
-- https://www.jsdelivr.com/projects/jquery.slick
+- https://webbyninuja.github.io/3dcalrousel/jquery.newCarousel.1.1.js
+- https://webbyninuja.github.io/3dcalrousel/jquery.newCarousel.css
 
 #####Example using jsDelivr
 
 Just add a link to the css file in your `<head>`:
 ```html
-<link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/jquery.slick/1.6.0/slick.css"/>
-<!-- Add the slick-theme.css if you want default styling -->
-<link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/jquery.slick/1.6.0/slick-theme.css"/>
+<link rel="stylesheet" type="text/css" href="newCarousel.css">
+<script src="jquery.touchSwipe.min.js"></script>
+<script src="jquery.newCarousel.1.1.js"></script>
 ```
 
 Then, before your closing ```<body>``` tag add:
