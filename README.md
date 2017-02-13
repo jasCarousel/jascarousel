@@ -5,15 +5,15 @@ _Awesome 3D carousel plugin_
 
 #### Demo
 
-[https://webbyninuja.github.io/3dcalrousel/](https://webbyninuja.github.io/3dcalrousel/)
+[https://websoldire.github.io/3dcalrousel/](https://websoldire.github.io/3dcalrousel/)
 
 #### CDN
 
 To start working with Slick right away, there's a couple of CDN choices availabile
 to serve the files as close, and fast as possible to your users:
 
-- https://webbyninuja.github.io/3dcalrousel/jquery.newCarousel.1.1.js
-- https://webbyninuja.github.io/3dcalrousel/jquery.newCarousel.css
+- https://websoldire.github.io/3dcalrousel/jquery.newCarousel.1.1.js
+- https://websoldire.github.io/3dcalrousel/jquery.newCarousel.css
 
 #####Example using jsDelivr
 
@@ -26,27 +26,14 @@ Just add a link to the css file in your `<head>`:
 
 Then, before your closing ```<body>``` tag add:
 
-```html
-<script type="text/javascript" src="//cdn.jsdelivr.net/jquery.slick/1.6.0/slick.min.js"></script>
-```
-
-#### Package Managers
-
-```sh
-# Bower
-bower install --save slick-carousel
-
-# NPM
-npm install slick-carousel
-```
 
 #### Contributing
 
 PLEASE review CONTRIBUTING.markdown prior to requesting a feature, filing a pull request or filing an issue.
 
-### Data Attribute Settings
+### Html Settings
 
-In slick 1.5 you can now add settings using the data-slick attribute. You still need to call $(element).slick() to initialize slick on the element.
+In 3Dcarousel 1.1 you need to follow this html structure 
 
 Example:
 
@@ -72,6 +59,7 @@ Example:
 ```
 
 
+### JavaScript setting and default options
 ```javascript
 
 
