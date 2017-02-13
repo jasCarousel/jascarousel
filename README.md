@@ -89,39 +89,39 @@ Example:
 	</thead>
 	<tbody>
 		<tr>
-			<td>imageSrc</td>
-			<td>null</td>
-			<td>You must provide a path to the image you wish to apply to the parallax effect.</td>
-		</tr>
-		<tr>
-			<td>naturalWidth</td>
 			<td>auto</td>
-			<td>You can provide the natural width and natural height of an image to speed up loading and reduce error when determining the correct aspect ratio of the image.</td>
+			<td>true</td>
+			<td>3Dcarousel will auto play with this option</td>
 		</tr>
 		<tr>
-			<td>naturalHeight</td>
-			<td>number</td>
-			<td>auto</td>
+			<td>timer</td>
+			<td>1500</td>
+			<td>Interval between slide change</td>
 		</tr>
 		<tr>
-			<td>position</td>
-			<td>center center</td>
-			<td>This is analogous to the background-position css property. Specify coordinates as top, bottom, right, left, center, or pixel values (e.g. -10px 0px). The parallax image will be positioned as close to these values as possible while still covering the target element.</td>
+			<td>navigation</td>
+			<td>true</td>
+			<td>To genrate navigation button in 3Dcarousel</td>
 		</tr>
 		<tr>
-			<td>positionX</td>
-			<td>xPos</td>
-			<td>center</td>
+			<td>prevText</td>
+			<td>"prev"</td>
+			<td>Add text into prev button</td>
 		</tr>
 		<tr>
-			<td>positionY</td>
-			<td>yPos</td>
-			<td>center</td>
+			<td>nextText</td>
+			<td>"next"</td>
+			<td>Add text into next button</td>
 		</tr>
 		<tr>
-			<td>speed</td>
-			<td>0.2</td>
-			<td>The speed at which the parallax effect runs. 0.0 means the image will appear fixed in place, and 1.0 the image will flow at the same speed as the page content.</td>
+			<td>swipe</td>
+			<td>true</td>
+			<td>Enable or desable swipe functionality</td>
+		</tr>
+		<tr>
+			<td>infiniteLoop</td>
+			<td>true</td>
+			<td>3Dcarousel will rotate infinite if this option is true</td>
 		</tr>
 		<tr>
 			<td>zIndex</td>
@@ -129,24 +129,14 @@ Example:
 			<td>The z-index value of the fixed-position elements.  By default these will be behind everything else on the page.</td>
 		</tr>
 		<tr>
-			<td>bleed</td>
+			<td>axes</td>
+			<td>"x"</td>
+			<td>if set value "x" it will genrate horizonral carousel. And "y" will ganrate vartical carousel</td>
+		</tr>
+		<tr>
+			<td>margin</td>
 			<td>0</td>
-			<td>You can optionally set the parallax mirror element to extend a few pixels above and below the mirrored element.  This can hide slow or stuttering scroll events in certain browsers.</td>
-		</tr>
-		<tr>
-			<td>iosFix</td>
-			<td>true</td>
-			<td>iOS devices are incompatable with this plugin. If true, this option will set the parallax image as a static, centered background image whenever it detects an iOS user agent. Disable this if you wish to implement your own graceful degradation.</td>
-		</tr>
-		<tr>
-			<td>androidFix</td>
-			<td>true</td>
-			<td>If true, this option will set the parallax image as a static, centered background image whenever it detects an Android user agent. Disable this if you wish to enable the parallax scrolling effect on Android devices.</td>
-		</tr>
-		<tr>
-			<td>overScrollFix</td>
-            		<td>false</td>
-			<td>(Experimental) If true, will freeze the parallax effect when "over scrolling" in browsers like Safari to prevent unexpected gaps caused by negative scroll positions.</td>
+			<td>Margin between each slide.</td>
 		</tr>
 	</tbody>
 </table>
