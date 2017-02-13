@@ -51,13 +51,23 @@ In slick 1.5 you can now add settings using the data-slick attribute. You still 
 Example:
 
 ```html
-<div data-slick='{"slidesToShow": 4, "slidesToScroll": 4}'>
-  <div><h3>1</h3></div>
-  <div><h3>2</h3></div>
-  <div><h3>3</h3></div>
-  <div><h3>4</h3></div>
-  <div><h3>5</h3></div>
-  <div><h3>6</h3></div>
+<div class="container">
+    <div class="box">
+        <figure><div class="one">1</div></figure>
+        <figure><div class="two">2</div></figure>
+        <figure><div class="three">3</div></figure>
+        <figure><div class="four">4</div></figure>
+        <figure><div class="five">5</div></figure>
+        <figure><div class="six">6</div></figure>
+        <figure><div class="six">7</div></figure>
+        <figure><div class="six">8</div></figure>
+        <figure><div class="six">9</div></figure>
+        <figure><div class="six">10</div></figure>
+        <figure><div class="six">11</div></figure>
+        <figure><div class="six">12</div></figure>
+        <figure><div class="six">13</div></figure>
+        <figure><div class="six">14</div></figure>
+    </div>
 </div>
 ```
 
