@@ -60,3 +60,19 @@ Example:
   <div><h3>6</h3></div>
 </div>
 ```
+
+
+```javascript
+
+
+  $(".container").carousel({
+        timer:1500,
+        auto:true,
+        navigation:true,
+        prevText:"prev",
+        nextText:"next",
+        swipe:true,
+        infiniteLoop:true,
+        axes:"y",
+        margin:0 
+    });
