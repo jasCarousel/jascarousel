@@ -12,8 +12,8 @@ _Awesome 3D carousel plugin_
 To start working with 3Dcalrousel right away, there's a couple of CDN choices availabile
 to serve the files as close, and fast as possible to your users:
 
-- https://websoldire.github.io/3Dcalrousel/jquery.newCarousel.1.1.js
-- https://websoldire.github.io/3Dcalrousel/jquery.newCarousel.css
+- https://websoldire.github.io/3Dcalrousel/3DCarousel.1.1.js
+- https://websoldire.github.io/3Dcalrousel/3DCarousel.1.1.css
 
 #####Example using jsDelivr
 
@@ -21,7 +21,7 @@ Just add a link to the css file in your `<head>`:
 ```html
 <link rel="stylesheet" type="text/css" href="newCarousel.css">
 <script src="jquery.touchSwipe.min.js"></script>
-<script src="jquery.newCarousel.1.1.js"></script>
+<script src="3DCarousel.1.1.js"></script>
 ```
 
 Then, before your closing ```<body>``` tag add:
