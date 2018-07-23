@@ -13,9 +13,9 @@ To start working with 3Dcalrousel right away, there's a couple of CDN choices av
 to serve the files as close, and fast as possible to your users:
 
 - https://websoldire.github.io/3Dcalrousel/3DCarousel.1.1.js
-- https://websoldire.github.io/3Dcalrousel/3DCarousel.1.1.css
+- https://websoldire.github.io/3Dcalrousel/3DCarousel.css
 
-#####Example using jsDelivr
+####Example using jsDelivr
 
 Just add a link to the css file in your `<head>`:
 ```html
