@@ -15,7 +15,7 @@ to serve the files as close, and fast as possible to your users:
 - https://websoldire.github.io/3Dcalrousel/3DCarousel.1.1.js
 - https://websoldire.github.io/3Dcalrousel/3DCarousel.css
 
-Just add a link to the css file in your `<head>`:
+Include following style and script into your HTML  `<head>`:
 ```html
 <link rel="stylesheet" type="text/css" href="https://websoldire.github.io/3Dcalrousel/3DCarousel.css">
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
@@ -23,12 +23,7 @@ Just add a link to the css file in your `<head>`:
 <script src="https://websoldire.github.io/3Dcalrousel/3DCarousel.1.1.js"></script>
 ```
 
-Then, before your closing ```<body>``` tag add:
-
-
-#### Contributing
-
-PLEASE review CONTRIBUTING.markdown prior to requesting a feature, filing a pull request or filing an issue.
+After that follow HTML structure:
 
 ### Html Settings
 
@@ -139,3 +134,7 @@ Example:
 		</tr>
 	</tbody>
 </table>
+
+#### Contributing
+
+Please review CONTRIBUTING.markdown prior to requesting a feature, filing a pull request or filing an issue.
