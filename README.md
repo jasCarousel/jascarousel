@@ -18,6 +18,7 @@ to serve the files as close, and fast as possible to your users:
 Just add a link to the css file in your `<head>`:
 ```html
 <link rel="stylesheet" type="text/css" href="https://websoldire.github.io/3Dcalrousel/3DCarousel.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.touchswipe/1.6.18/jquery.touchSwipe.min.js"></script>
 <script src="https://websoldire.github.io/3Dcalrousel/3DCarousel.1.1.js"></script>
 ```
