@@ -15,8 +15,6 @@ to serve the files as close, and fast as possible to your users:
 - https://websoldire.github.io/3Dcalrousel/3DCarousel.1.1.js
 - https://websoldire.github.io/3Dcalrousel/3DCarousel.css
 
-####Example using jsDelivr
-
 Just add a link to the css file in your `<head>`:
 ```html
 <link rel="stylesheet" type="text/css" href="newCarousel.css">
