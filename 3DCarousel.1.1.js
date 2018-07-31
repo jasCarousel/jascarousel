@@ -28,7 +28,7 @@ $(document).ready(function () {
             nextText:"next",
             swipe:true,
             infiniteLoop:true,
-            axes:"y",
+            axis:"y",
             margin:0
         };
         var merged = $.extend({}, defaults, option);
@@ -43,9 +43,9 @@ $(document).ready(function () {
         this.css({"width": this.find("figure").width() + 20 + "px","perspective": "1100px"});
         this.find(">div").css({"transform": "translateZ(" + -translateZ + "px)"}).addClass("carousel");
         this.find("figure").each(function (index) {
-            if(merged.axes == "y"){
+            if(merged.axis == "y"){
                 $(this).css({"transform": "rotateY(" + newdeg + "deg) translateZ(" + translateZ + "px)"});
-            } else if(merged.axes == "x"){
+            } else if(merged.axis == "x"){
                 $(this).css({"transform": "rotateX(" + newdeg + "deg) translateZ(" + (translateZ/2+35) + "px)"});
             }
             newdeg = deg * (index + 1);
@@ -79,9 +79,9 @@ $(document).ready(function () {
                 clearInterval(interval);
                 //prevnextDeg =0
             }
-            if(merged.axes == "y"){
+            if(merged.axis == "y"){
                 $(".carousel").css({"transform": "translateZ(" + -translateZ + "px) rotateY(" + prevnextDeg + "deg)"});
-            } else if(merged.axes == "x"){
+            } else if(merged.axis == "x"){
                 $(".carousel").css({"transform": "translateZ(" + -(translateZ/2+35) + "px) rotateX(" + prevnextDeg + "deg)"});
             }
         }
@@ -92,9 +92,9 @@ $(document).ready(function () {
             i++
             prevnextDeg = deg * i;
             console.log("next--> ", prevnextDeg);
-            if(merged.axes == "y"){
+            if(merged.axis == "y"){
                 $(".carousel").css({"transform": "translateZ(" + -translateZ + "px) rotateY(" + prevnextDeg + "deg)"});
-            } else if(merged.axes == "x"){
+            } else if(merged.axis == "x"){
                 $(".carousel").css({"transform": "translateZ(" + -(translateZ/2+35) + "px) rotateX(" + prevnextDeg + "deg)"});
             }
             
@@ -122,18 +122,18 @@ $(document).ready(function () {
 
                     if(direction == "left" && phase == "move"){
                         currentDeg = prevnextDeg - distance/4;
-                        if(merged.axes == "y"){
+                        if(merged.axis == "y"){
                             $(".carousel").css({"transform": "translateZ(" + -translateZ + "px) rotateY(" + currentDeg + "deg)"});
-                        } else if(merged.axes == "x"){
+                        } else if(merged.axis == "x"){
                             $(".carousel").css({"transform": "translateZ(" + -translateZ/2+10 + "px) rotateX(" + currentDeg + "deg)"});
                         }
                         
                         carouselDirection = "left";
                     } else if (direction == "right" && phase == "move"){
                         currentDeg = prevnextDeg + distance/4;
-                        if(merged.axes == "y"){
+                        if(merged.axis == "y"){
                             $(".carousel").css({"transform": "translateZ(" + -translateZ + "px) rotateY(" + currentDeg + "deg)"});
-                        } else if(merged.axes == "x"){
+                        } else if(merged.axis == "x"){
                             $(".carousel").css({"transform": "translateZ(" + -(translateZ/2+35) + "px) rotateX(" + currentDeg + "deg)"});
                         }
                         
