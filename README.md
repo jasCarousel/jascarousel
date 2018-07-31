@@ -34,20 +34,20 @@ Example:
 ```html
 <div class="container">
     <div class="box">
-        <figure><div class="one">1</div></figure>
-        <figure><div class="two">2</div></figure>
-        <figure><div class="three">3</div></figure>
-        <figure><div class="four">4</div></figure>
-        <figure><div class="five">5</div></figure>
-        <figure><div class="six">6</div></figure>
-        <figure><div class="six">7</div></figure>
-        <figure><div class="six">8</div></figure>
-        <figure><div class="six">9</div></figure>
-        <figure><div class="six">10</div></figure>
-        <figure><div class="six">11</div></figure>
-        <figure><div class="six">12</div></figure>
-        <figure><div class="six">13</div></figure>
-        <figure><div class="six">14</div></figure>
+        <figure> <div> 1 </div> </figure>
+        <figure> <div> 2 </div> </figure>
+        <figure> <div> 3 </div> </figure>
+        <figure> <div> 4 </div> </figure>
+        <figure> <div> 5 </div> </figure>
+        <figure> <div> 6  </div> </figure>
+        <figure> <div> 7 </div> </figure>
+        <figure> <div> 8 </div> </figure>
+        <figure> <div> 9 </div> </figure>
+        <figure> <div> 10 </div> </figure>
+        <figure> <div> 11 </div> </figure>
+        <figure> <div> 12 </div> </figure>
+        <figure> <div> 13 </div> </figure>
+        <figure> <div> 14 </div> </figure>
     </div>
 </div>
 ```
