@@ -123,7 +123,7 @@ Example:
 			<td>The z-index value of the fixed-position elements.  By default these will be behind everything else on the page.</td>
 		</tr>
 		<tr>
-			<td>axes</td>
+			<td>axis</td>
 			<td>"x"</td>
 			<td>if set value "x" it will generate horizonral carousel. And "y" will generate vartical carousel</td>
 		</tr>
