@@ -39,7 +39,7 @@ Example:
         <figure> <div> 3 </div> </figure>
         <figure> <div> 4 </div> </figure>
         <figure> <div> 5 </div> </figure>
-        <figure> <div> 6  </div> </figure>
+        <figure> <div> 6 </div> </figure>
         <figure> <div> 7 </div> </figure>
         <figure> <div> 8 </div> </figure>
         <figure> <div> 9 </div> </figure>
@@ -125,7 +125,7 @@ Example:
 		<tr>
 			<td>axes</td>
 			<td>"x"</td>
-			<td>if set value "x" it will genrate horizonral carousel. And "y" will ganrate vartical carousel</td>
+			<td>if set value "x" it will generate horizonral carousel. And "y" will generate vartical carousel</td>
 		</tr>
 		<tr>
 			<td>margin</td>
