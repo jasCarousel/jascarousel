@@ -1,0 +1,3 @@
+.jas-carousel{position: absolute !important;  transform-style: preserve-3d;  transition: all 0.5s; -webkit-transition: all 0.5s; -ms-transition: all 0.5s; -moz-transition: all 0.5s; height: 100%; width:100%;}
+body.transition-remove .jas-carousel {transition: none !important; -webkit-transition: none !important; -moz-transition: none !important; -ms-transition: none !important;}
+.jas-carousel > .jas-item{position: absolute !important; height: 100%;width: 100%;transform-style: preserve-3d;}

@@ -1,73 +1,70 @@
-# 3Dcalrousel
+# jasCarousel
 
 -------
 _Awesome 3D carousel plugin_
 
 #### Demo
 
-[https://websoldire.github.io/3Dcalrousel/](https://websoldire.github.io/3Dcalrousel/)
+[https://websoldire.github.io/3Dcalrousel/](https://github.com/jasCarousel/jascarousel)
 
 #### CDN
 
-To start working with 3Dcalrousel right away, there's a couple of CDN choices availabile
+To start working with jasCarousel right away, there's a couple of CDN choices availabile
 to serve the files as close, and fast as possible to your users:
 
-- https://websoldire.github.io/3Dcalrousel/3DCarousel.1.1.js
-- https://websoldire.github.io/3Dcalrousel/3DCarousel.css
+- https://github.com/jasCarousel/jascarousel/js/jas-carousel.js
+- https://github.com/jasCarousel/jascarousel/css/jas-carousel.css
 
 Include following style and script into your HTML  `<head>`:
 ```html
-<link rel="stylesheet" type="text/css" href="https://websoldire.github.io/3Dcalrousel/3DCarousel.css">
+<link rel="stylesheet" type="text/css" href="https://github.com/jasCarousel/jascarousel/css/jas-carousel.css">
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.touchswipe/1.6.18/jquery.touchSwipe.min.js"></script>
-<script src="https://websoldire.github.io/3Dcalrousel/3DCarousel.1.1.js"></script>
+<script src="https://github.com/jasCarousel/jascarousel/js/jas-carousel.js"></script>
 ```
 
 After that follow HTML structure:
 
 ### Html Settings
 
-In 3Dcarousel 1.1 you need to follow this html structure 
+In jasCarousel you need to follow this html structure 
 
 Example:
 
 ```html
-<div class="container">
-    <div class="box">
-        <figure> <div> 1 </div> </figure>
-        <figure> <div> 2 </div> </figure>
-        <figure> <div> 3 </div> </figure>
-        <figure> <div> 4 </div> </figure>
-        <figure> <div> 5 </div> </figure>
-        <figure> <div> 6 </div> </figure>
-        <figure> <div> 7 </div> </figure>
-        <figure> <div> 8 </div> </figure>
-        <figure> <div> 9 </div> </figure>
-        <figure> <div> 10 </div> </figure>
-        <figure> <div> 11 </div> </figure>
-        <figure> <div> 12 </div> </figure>
-        <figure> <div> 13 </div> </figure>
-        <figure> <div> 14 </div> </figure>
-    </div>
-</div>
+<ul class="slider">
+    <li>1</li>
+    <li>2</li>
+    <li>3</li>
+    <li>4</li>
+    <li>5</li>
+    <li>6</li>
+    <li>7</li>
+    <li>8</li>
+    <li>9</li>
+    <li>10</li>
+    <li>11</li>
+    <li>12</li>
+    <li>13</li>
+    <li>14</li>
+    <li>15</li>
+</ul>
 ```
 
 
 ### JavaScript setting and default options
 ```javascript
 
-    $(".container").carousel({
-        timer:1500,
-        auto:true,
-        navigation:true,
-        prevText:"prev",
-        nextText:"next",
-        swipe:true,
-        infiniteLoop:true,
-        axes:"y",
-        margin:0 
-    });
-    
+
+    $(".slider").jasCarousel({
+        margin: 20,
+        auto: false,
+        speed: 800,
+        delay: 2000,
+        slideFrontFace: false,
+        moveOnSlideClick: true,
+        prevText:'Prev',
+        nextText:'Next'
+    })    
     
 ```
 
@@ -88,9 +85,14 @@ Example:
 			<td>3Dcarousel will auto play with this option</td>
 		</tr>
 		<tr>
-			<td>timer</td>
+			<td>delay</td>
 			<td>1500</td>
-			<td>Interval between slide change</td>
+			<td>delay between slide transition</td>
+		</tr>
+		<tr>
+			<td>speed</td>
+			<td>2000</td>
+			<td>Transition Speed of slide change</td>
 		</tr>
 		<tr>
 			<td>navigation</td>
@@ -108,24 +110,14 @@ Example:
 			<td>Add text into next button</td>
 		</tr>
 		<tr>
-			<td>swipe</td>
-			<td>true</td>
-			<td>Enable or desable swipe functionality</td>
+			<td>autoDirection</td>
+			<td>"next"</td>
+			<td>Auto direction of slider navigation "next" and "prev"</td>
 		</tr>
 		<tr>
-			<td>infiniteLoop</td>
-			<td>true</td>
-			<td>3Dcarousel will rotate infinite if this option is true</td>
-		</tr>
-		<tr>
-			<td>zIndex</td>
-			<td>-100</td>
-			<td>The z-index value of the fixed-position elements.  By default these will be behind everything else on the page.</td>
-		</tr>
-		<tr>
-			<td>axis</td>
-			<td>"x"</td>
-			<td>if set value "x" it will generate horizonral carousel. And "y" will generate vartical carousel</td>
+			<td>mode</td>
+			<td>"horizontal"</td>
+			<td>if set value "horizontal" it will generate horizonral carousel. And "vertical" will generate vartical carousel</td>
 		</tr>
 		<tr>
 			<td>margin</td>
