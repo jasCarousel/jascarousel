@@ -5,21 +5,21 @@ _Awesome 3D carousel plugin_
 
 #### Demo
 
-[https://websoldire.github.io/3Dcalrousel/](https://github.com/jasCarousel/jascarousel)
+[https://jascarousel.github.io/jascarousel/](https://github.com/jasCarousel/jascarousel)
 
 #### CDN
 
 To start working with jasCarousel right away, there's a couple of CDN choices availabile
 to serve the files as close, and fast as possible to your users:
 
-- https://github.com/jasCarousel/jascarousel/js/jas-carousel.js
-- https://github.com/jasCarousel/jascarousel/css/jas-carousel.css
+- https://jascarousel.github.io/jascarousel/js/jas-carousel.js
+- https://jascarousel.github.io/jascarousel/css/jas-carousel.css
 
 Include following style and script into your HTML  `<head>`:
 ```html
-<link rel="stylesheet" type="text/css" href="https://github.com/jasCarousel/jascarousel/css/jas-carousel.css">
+<link rel="stylesheet" type="text/css" href="https://jascarousel.github.io/jascarousel/css/jas-carousel.css">
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
-<script src="https://github.com/jasCarousel/jascarousel/js/jas-carousel.js"></script>
+<script src="https://jascarousel.github.io/jascarousel/js/jas-carousel.js"></script>
 ```
 
 After that follow HTML structure:
