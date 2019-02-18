@@ -3,6 +3,7 @@ html, body, div, span, applet, object, iframe,h1, h2, h3, h4, h5, h6, p, blockqu
 body {
     /*font-family: cursive;*/
     font-family: 'Roboto', sans-serif;
+    color:#2c3e50;
 }
 .cf:after,
 .cf:before {
@@ -37,6 +38,13 @@ h2 {
     margin-bottom: 60px;
     font-size: 30px;
 }
+.example-page h2{
+    margin-top: 30px;
+    text-align: left;
+    margin-bottom: 30px;
+    font-weight: 800;
+    color:#2c3e50;
+}
 nav {
     display: flex;
     align-items: center;
@@ -51,7 +59,7 @@ nav a {
     border-bottom: 2px solid transparent;
     transition: all 0.3s;
 }
-nav a:hover {
+nav a:hover,nav a.active {
     border-bottom-color: #00fe5a
 }
 nav a:last-child {
@@ -113,6 +121,26 @@ nav a:last-child {
 .jas-control a img {
     width: 100%;
 }
+
+.usage{
+    margin-bottom: 30px;    
+}
+.usage h3 {
+    margin: 45px 0 0.8em;
+    padding-bottom: 0.7em;
+    border-bottom: 1px solid #ddd;
+    z-index: -1;
+    font-weight: 600;
+    color: #2c3e50;
+    font-size: 23px
+}
+.usage code {font-size: 16px;font-family: monospace;}
+.example-box p{
+    font-size: 14px;
+    color: #616161;
+    margin-bottom: 20px;
+}
+
 footer {
     width: 100%;
     padding: 30px 0;

@@ -12,11 +12,14 @@
     <meta name="author" content="Parth Jasani">
     <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
     <link rel="icon" href="favicon.ico" type="image/x-icon">
-    <link rel="stylesheet" href="css/jas-carousel.css">
     <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/jas-carousel.css">
+    <link rel="stylesheet" href="css/default.min.css">
+    <link rel="stylesheet" href="css/github.css">
     <link href="https://fonts.googleapis.com/css?family=Open+Sans|Roboto:300" rel="stylesheet">
     <script src="js/jquery.min.js"></script>
     <script src="js/jas-carousel.js"></script>
+    <script src="js/highlight.pack.js"></script>
 </head>
 
 <body>
@@ -25,12 +28,12 @@
             <div class="container">
                 <div class="header_inner">
                    <h1 class="logo">
-                        <a href="http://jasaniweb.com" title="jas-carouse">
+                        <a href="https://jascarousel.github.io/jascarousel/" title="jas-carouse">
                             <img src="img/jas-carousel-logo.png" alt="jas-carousel-logo">
                         </a>
                     </h1>
                     <nav>
-                        <a href="#">Examples</a>
+                        <a href="examples.html">Examples</a>
                         <a href="https://github.com/jasCarousel/jascarousel#options">Options</a>
                         <a href="https://github.com/jasCarousel/jascarousel">Github</a>
                         <a href="./jasCarousel.zip" download>Download</a>
@@ -64,6 +67,43 @@
             </div>
         </div>
         <h2>jQuery plugin that lets you create a beautiful responsive 3D carousel slider</h2>
+        <div class="usage">
+            <div class="container cf">
+                <h3>Installation</h3>
+                <pre>
+                    <code class="html">
+    &lt;link rel="stylesheet" type="text/css" href="https://jascarousel.github.io/jascarousel/css/jas-carousel.css"&gt;
+    &lt;script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"&gt;&lt;/script&gt;
+    &lt;script src="https://jascarousel.github.io/jascarousel/js/jas-carousel.js"&gt;&lt;/script&gt;
+                    </code>
+                </pre>
+                <h3>HTML Structure</h3>
+                <pre>
+                    <code>
+    &lt;ul class="slider"&gt;
+        &lt;li&gt;1&lt;/li&gt;
+        &lt;li&gt;2&lt;/li&gt;
+        &lt;li&gt;3&lt;/li&gt;
+        &lt;li&gt;4&lt;/li&gt;
+        &lt;li&gt;5&lt;/li&gt;
+    &lt;/ul&gt;    
+                    </code>
+                </pre>
+                <h3>Usage</h3>
+                <pre>
+                    <code>
+    $(".slider").jasCarousel({
+        margin: 20,
+        auto: false,
+        speed: 800,
+        delay: 2000,
+        prevText:'Prev',
+        nextText:'Next'
+    })  
+                    </code>
+                </pre>
+            </div>
+        </div>
     </main>
     <footer>
         <p>Released under the <a href="https://opensource.org/licenses/MIT">MIT License</a></p>
@@ -83,8 +123,11 @@
             prevText:'<img src="./img/jas-carousel-arrow-next.png">',
             nextText:'<img src="./img/jas-carousel-arrow-prev.png">'
         })
+        document.querySelectorAll('pre code').forEach((block) => {
+            hljs.highlightBlock(block);
+        });
     })
-
+        
 </script>
 
 </html>
