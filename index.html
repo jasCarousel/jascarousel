@@ -26,7 +26,7 @@
     <link rel="stylesheet" href="css/jas-carousel.css">
     <link rel="stylesheet" href="css/default.min.css">
     <link rel="stylesheet" href="css/github.css">
-    <link href="https://fonts.googleapis.com/css?family=Open+Sans|Roboto:300" rel="stylesheet">
+    <link href='//fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,600|Roboto Mono' rel='stylesheet' type='text/css'>
     <script src="js/jquery.min.js"></script>
     <script src="js/jas-carousel.js"></script>
     <script src="js/highlight.pack.js"></script>
@@ -35,20 +35,18 @@
 <body>
     <main>
         <header>
-            <div class="container">
-                <div class="header_inner">
-                   <h1 class="logo">
-                        <a href="https://jascarousel.github.io/jascarousel/" title="jas-carouse">
-                            <img src="img/jas-carousel-logo.png" alt="jas-carousel-logo">
-                        </a>
-                    </h1>
-                    <nav>
-                        <a href="examples.html">Examples</a>
-                        <a href="https://github.com/jasCarousel/jascarousel#options">Options</a>
-                        <a href="https://github.com/jasCarousel/jascarousel">Github</a>
-                        <a href="./jasCarousel.zip" download>Download</a>
-                    </nav>
-                </div>
+            <div class="header_inner">
+               <h1 class="logo">
+                    <a href="https://jascarousel.github.io/jascarousel/" title="jas-carouse">
+                        <img src="img/jas-carousel-logo.png" alt="jas-carousel-logo">
+                    </a>
+                </h1>
+                <nav>
+                    <a href="examples.html">Examples</a>
+                    <a href="options.html">Options</a>
+                    <a href="https://github.com/jasCarousel/jascarousel">Github</a>
+                    <a href="./jasCarousel.zip" download>Download</a>
+                </nav>
             </div>
         </header>
 
@@ -130,8 +128,8 @@
             delay: 2000,
             slideFrontFace: false,
             moveOnSlideClick: true,
-            prevText:'<img src="./img/jas-carousel-arrow-next.png">',
-            nextText:'<img src="./img/jas-carousel-arrow-prev.png">'
+            prevText:'<img src="./img/jas-carousel-arrow-prev.png">',
+            nextText:'<img src="./img/jas-carousel-arrow-next.png">'
         })
         document.querySelectorAll('pre code').forEach((block) => {
             hljs.highlightBlock(block);

@@ -1,0 +1,211 @@
+<!doctype html>
+
+<html>
+
+<head>
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-134968642-1"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag() {
+            dataLayer.push(arguments);
+        }
+        gtag('js', new Date());
+        gtag('config', 'UA-134968642-1');
+    </script>
+    <title>jasCarousel | 3D carousel | Options</title>
+    <meta charset="utf-8">
+    <meta name="msapplication-tap-highlight" content="no" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="keywords" content="3D carousel, 3d slider, jquery carousel, carousel, jquery carousel plugin, carousel slider">
+    <meta name="description" content="jQuery plugin that lets you create beautiful responsive 3D carousel slider.">
+    <meta name="author" content="Parth Jasani">
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <link rel="icon" href="favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="css/style.css">
+    <link href='//fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,600|Roboto Mono' rel='stylesheet' type='text/css'>
+    <script src="js/jquery.min.js"></script>
+</head>
+
+<body class="options-page">
+    <main>
+        <header>
+            <div class="header_inner">
+                <h1 class="logo">
+                        <a href="https://jascarousel.github.io/jascarousel/" title="jas-carouse">
+                            <img src="img/jas-carousel-logo.png" alt="jas-carousel-logo">
+                        </a>
+                    </h1>
+                <nav>
+                    <a href="examples.html">Examples</a>
+                    <a class="active" href="options.html">Options</a>
+                    <a href="https://github.com/jasCarousel/jascarousel">Github</a>
+                    <a href="./jasCarousel.zip" download>Download</a>
+                </nav>
+            </div>
+        </header>
+        <div class="usage">
+            <div class="container cf">
+                <h2>Options</h2>
+                <h3>General</h3>
+                <div class="options-box">
+                    <h4>mode</h4>
+                    <p>Genrate 'horizontal' or 'vertical' carousel</p>
+                    <ul>
+                        <li><b>Type:</b>
+                            <mark>String</mark>
+                        </li>
+                        <li><b>Default:</b>
+                            <mark>"horizontal"</mark>
+                        </li>
+                    </ul>
+                </div>
+                <div class="options-box">
+                    <h4>auto</h4>
+                    <p>Carousel will automatically transition</p>
+                    <ul>
+                        <li><b>Type:</b>
+                            <mark>Boolean</mark>
+                        </li>
+                        <li><b>Default:</b>
+                            <mark>false</mark>
+                        </li>
+                    </ul>
+                </div>
+                <div class="options-box">
+                    <h4>speed</h4>
+                    <p>carousel slide transition duration (in ms)</p>
+                    <ul>
+                        <li><b>Type:</b>
+                            <mark>Number</mark>
+                        </li>
+                        <li><b>Default:</b>
+                            <mark>2000</mark>
+                        </li>
+                    </ul>
+                </div>
+                <div class="options-box">
+                    <h4>delay</h4>
+                    <p>The amount of delay (in ms) between each auto transition</p>
+                    <ul>
+                        <li><b>Type:</b>
+                            <mark>Number</mark>
+                        </li>
+                        <li><b>Default:</b>
+                            <mark>1500</mark>
+                        </li>
+                    </ul>
+                </div>
+                <div class="options-box">
+                    <h4>autoDirection</h4>
+                    <p>The direction of auto run carousel transitions</p>
+                    <ul>
+                        <li><b>Type:</b>
+                            <mark>String</mark>
+                        </li>
+                        <li><b>Default:</b>
+                            <mark>"next"</mark>
+                        </li>
+                    </ul>
+                </div>
+                <div class="options-box">
+                    <h4>navigation</h4>
+                    <p>if true navigation will added</p>
+                    <ul>
+                        <li><b>Type:</b>
+                            <mark>Boolean</mark>
+                        </li>
+                        <li><b>Default:</b>
+                            <mark>false</mark>
+                        </li>
+                    </ul>
+                </div>
+
+                <div class="options-box">
+                    <h4>prevText</h4>
+                    <p>Text/html to be used for the "Prev" control</p>
+                    <ul>
+                        <li><b>Type:</b>
+                            <mark>String</mark>
+                        </li>
+                        <li><b>Default:</b>
+                            <mark>"Prev"</mark>
+                        </li>
+                    </ul>
+                </div>
+                <div class="options-box">
+                    <h4>nextText</h4>
+                    <p>Text/html to be used for the "Next" control</p>
+                    <ul>
+                        <li><b>Type:</b>
+                            <mark>String</mark>
+                        </li>
+                        <li><b>Default:</b>
+                            <mark>"Next"</mark>
+                        </li>
+                    </ul>
+                </div>
+                <div class="options-box">
+                    <h4>margin</h4>
+                    <p>Gap(margin) between slides</p>
+                    <ul>
+                        <li><b>Type:</b>
+                            <mark>Number</mark>
+                        </li>
+                        <li><b>Default:</b>
+                            <mark>0</mark>
+                        </li>
+                    </ul>
+                </div>
+                <div class="options-box">
+                    <h4>perspective</h4>
+                    <p>3D Perspective of carousel box</p>
+                    <ul>
+                        <li><b>Type:</b>
+                            <mark>Number</mark>
+                        </li>
+                        <li><b>Default:</b>
+                            <mark>1100</mark>
+                        </li>
+                    </ul>
+                </div>
+                <div class="options-box">
+                    <h4>slideFrontFace</h4>
+                    <p>If true each slide face will always be in front of user</p>
+                    <ul>
+                        <li><b>Type:</b>
+                            <mark>Boolean</mark>
+                        </li>
+                        <li><b>Default:</b>
+                            <mark>false</mark>
+                        </li>
+                    </ul>
+                </div>
+                <div class="options-box">
+                    <h4>moveOnSlideClick</h4>
+                    <p>Gacarousel will move on slide clickp(margin) between slides</p>
+                    <ul>
+                        <li><b>Type:</b>
+                            <mark>Boolean</mark>
+                        </li>
+                        <li><b>Default:</b>
+                            <mark>false</mark>
+                        </li>
+                    </ul>
+                </div>
+
+            </div>
+        </div>
+    </main>
+    <footer>
+        <p>Released under the <a href="https://opensource.org/licenses/MIT">MIT License</a></p>
+        <p>Copyright &copy; 2019 jasCarosuel | Developed with ♥ by <a href="http://jasaniweb.com" target="_blank">Parth</a></p>
+    </footer>
+</body>
+
+<script>
+
+
+</script>
+
+</html>
